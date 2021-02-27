@@ -1,0 +1,59 @@
+{
+  "name": "jxk-pages",
+  "version": "0.1.0",
+  "description": "static webapp workflow",
+  "keywords": [
+    "jxk-pages",
+    "zce"
+  ],
+  "homepage": "https://github.com/zce/jxk-pages#readme",
+  "bugs": {
+    "url": "https://github.com/zce/jxk-pages/issues"
+  },
+  "license": "MIT",
+  "author": "xukang.jin <jin_xukang@163.com>",
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "main": "lib/index.js",
+  "bin": "bin/jxk-pages.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zce/jxk-pages.git"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "ava"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.13.8",
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-load-plugins": "^2.0.6",
+    "gulp-sass": "^4.1.0",
+    "gulp-swig": "^0.9.1",
+    "gulp-useref": "^5.0.0",
+    "sass": "^1.32.8",
+    "@babel/core": "^7.13.8",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-uglify": "^3.0.2",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "ava": "^3.9.0",
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
